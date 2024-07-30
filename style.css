@@ -37,21 +37,23 @@ html, body{
     /* background-color: blue; */
 }
 #logo{
+    z-index: 99999;
     margin-top: 5%;
     /* margin-left: 0%; */
     /* position: absolute;
     top: 90%;
     left: 7%;
     transform: translate(-50%, -50%); */
-    width: 300px;
+    width: 200px;
     height: 100px;
-    background-image: url(assets/HH-removebg-preview.png);
+    background-image: url(assets/logo-black.png);
     background-size: cover;
     background-position: center;
 }
 
 #nav-links{
     margin-right: 50px;
+    z-index: 99999;
 }
 a{  
     font-family: "khand";
@@ -59,21 +61,101 @@ a{
     font-weight: 300;
     line-height: 25px;
     text-decoration: none;
-    color: rgb(3, 4, 5);
+    color: rgb(255, 255, 255);
 }
 
-#slider{
+
+#line{
+    position: absolute;
+    top: 80px;
+    left: 70px;
+    width: 92%;
+    height: 1px;
+    background-color: #f3eeee;
+    z-index: 99999;
+
+    
+}
+
+/* #slider{
     width: 100%;
     height: 650px;
     background-color: aliceblue;
 }
 
-#slider img{
+  #slider img{
     width: 100%;
     height: 100%;
     background-size: cover;
     background-position: center;
-}
+} */
+
+
+
+.swiper {
+    width: 100%;
+    height: 650px;
+  }
+
+  .swiper-slide {
+    /* background-position: center;
+    background-size: cover; */
+    overflow: hidden;
+  }
+
+  .swiper-slide img {
+    /* display: block; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  #slider-content-heading{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    width: 533px;
+    height: 338px;
+    /* background-color: aqua; */
+  }
+
+  #slider-content-heading h1{
+    color: #fff;
+    font-family: "khand";
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 80px;
+  }
+
+  #slider-content-heading p{
+    color: #ffffff;
+    font-family: "robot";
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+  }
+
+
+
+/* .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    /* background-position: center;
+    background-size: cover; */
+    /* overflow: hidden;
+  }
+
+  .swiper-slide img {
+    /* display: block; */
+    /* width: 100%;
+    height: 100%;
+    object-fit: cover;
+  } */
+
+
 
 #min-divs{
     width: 100%;
